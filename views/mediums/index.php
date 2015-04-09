@@ -51,7 +51,8 @@ function checkDelete()
             <td><?php echo $medium_item['id'] ?></td>
             <td><?php echo $medium_item['medium'] ?></td>
             <td>
-                <a href="<?php echo site_url();?>/mediums/view/<?php echo $medium_item['id']?>">View medium</a>
+                <a href="<?php echo site_url();?>/mediums/view/<?php echo $medium_item['id']?>">View</a>
+                <a href="<?php echo site_url();?>/mediums/edit/<?php echo $medium_item['id']?>">Edit</a>
                 <a href="<?php echo site_url();?>/mediums/delete/<?php echo $medium_item['id']?>">Delete</a>
                 <!--<input type="button" value="delete" onClick="checkDelete()">-->
             </td>
