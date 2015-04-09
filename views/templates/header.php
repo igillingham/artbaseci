@@ -42,7 +42,7 @@
 
 
 
-<script src="js/ui.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/ui.js"></script>
 
 
     
