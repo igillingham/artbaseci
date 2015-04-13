@@ -7,7 +7,7 @@
 
 <script type="text/javascript" charset="utf-8">
                         $(document).ready(function() {
-                                $('#mediums_list').dataTable( {
+                                $('#artworks_list').dataTable( {
                                 "bPaginate": true,
                                 "sScrollY": 400,
                                 "sScrollX": "90%",
@@ -41,6 +41,7 @@ function checkDelete()
             <th>Id</th>
             <th>Name</th>
             <th>Description</th>
+			<th>Actions</th>
         </tr>
     </thead>
     <tbody>

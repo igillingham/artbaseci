@@ -48,11 +48,8 @@ class Mediums_model extends CI_Model
 	{
             echo 'delete_medium called: id = '.$id;
             $this->db->where('id', $id);
-            $this->db->delete('medium'); 
-                
-            //$record = R::load('medium', $id);
-            //R::trash($record);
-		return NULL;
+            $this->db->delete('medium');
+            return NULL;
 	}
         
 }
