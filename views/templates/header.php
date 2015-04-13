@@ -28,8 +28,8 @@
                 <li class="pure-menu-item"><a href="<?php echo site_url();?>/artworks" class="pure-menu-link">Artworks</a></li>
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Prints</a></li>
                 <li class="pure-menu-item"><a href="<?php echo site_url();?>/mediums" class="pure-menu-link">Mediums</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Galleries</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Customers</a></li>
+                <li class="pure-menu-item"><a href="<?php echo site_url();?>/galleries" class="pure-menu-link" class="pure-menu-link">Galleries</a></li>
+                <li class="pure-menu-item"><a href="<?php echo site_url();?>/customer" class="pure-menu-link" class="pure-menu-link" class="pure-menu-link">Customers</a></li>
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Print Formats</a></li>
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Printers</a></li>
             </ul>
