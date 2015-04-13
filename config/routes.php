@@ -60,6 +60,23 @@ $route['mediums/edit'] = 'mediums/edit';
 $route['mediums/edit/(:any)'] = 'mediums/edit/$1';
 $route['mediums/updatedatabase'] = 'mediums/updatedatabase';
 $route['mediums/delete'] = 'mediums/delete';
+
+$route['galleries/(:any)'] = 'galleries/view/$1';
+$route['galleries'] = 'galleries';
+$route['galleries/create'] = 'galleries/create';
+$route['galleries/edit'] = 'galleries/edit';
+$route['galleries/edit/(:any)'] = 'galleries/edit/$1';
+$route['galleries/updatedatabase'] = 'galleries/updatedatabase';
+$route['galleries/delete'] = 'galleries/delete';
+
+$route['customer/(:any)'] = 'customer/view/$1';
+$route['customer'] = 'customer';
+$route['customer/create'] = 'customer/create';
+$route['customer/edit'] = 'customer/edit';
+$route['customer/edit/(:any)'] = 'customer/edit/$1';
+$route['customer/updatedatabase'] = 'customer/updatedatabase';
+$route['customer/delete'] = 'customer/delete';
+
 $route['artworks'] = 'artworks';
 $route['artworks/edit'] = 'artworks/edit';
 $route['artworks/create'] = 'artworks/create';
